@@ -35,7 +35,7 @@ void main()
 	cout << "¬ведите число:"; cin >> str;
 	cout<<is_integer(str)<<endl;
 	cout << is_bin(str) << endl;
-	//cout << is_hex(str) << endl;
+	cout << is_hex(str) << endl;
 }
 
 int StrLen(char str[])
